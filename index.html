@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modul KriptoID</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Web App -->
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="apple-touch-icon" href="images/logobaru.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/logobaru.png" type="image/png" />
+</head>
+<body>
+
+  <!-- Logo kanan atas -->
+  <img src="images/logobaru.png" alt="Logo KriptoID" class="logo-kanan" />
+
+  <!-- Judul halaman -->
+  <h1 class="judul-halaman">Welcome To Ternak Uang</h1>
+
+  <!-- Input pencarian -->
+  <input
+    type="text"
+    id="search-input"
+    placeholder="Cari judul modul..."
+    autocomplete="off"
+  />
+
+  <!-- Container untuk modul -->
+  <div id="modul-container" class="modul-container"></div>
+
+  <!-- Halaman Riset -->
+  <div id="halaman-riset" class="riset-container" style="display: none;"></div>
+
+  <!-- Halaman Profil -->
+  <div id="halaman-profil" style="display: none;">
+    <p style="text-align: center; padding-top: 40px;">Login dengan Discord untuk melihat profil.</p>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <button onclick="showPage('modul')">Modul</button>
+    <button onclick="showPage('riset')">Riset</button>
+    <button onclick="showPage('profil')">Profil</button>
+  </nav>
+
+  <!-- Modal Lihat Semua -->
+  <div id="modul-modal" class="modal" style="display: none;">
+    <div id="modul-modal-content" class="modal-content">
+     <!-- Akan diisi dari JS -->
+   </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
