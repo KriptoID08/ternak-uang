@@ -158,6 +158,28 @@ const modulList = [
     { url: 'https://drive.google.com/file/d/1bNrqXnSwZzg8zf2yA6D2xPaTiribbPFs/view?usp=drive_link', label: '7.Saham Sebagai Instrumen Kekayaan' },
   ]
  },
+  {
+  judul: 'Assets Classes',
+  kategori: 'Principles Investing',
+  gambar: 'images/assetsclas.webp',
+  links: [
+    { url: 'https://youtu.be/azD_aYYxY_c?si=pSGGrSDyuWhcFMtY', label: '1.Cash & Cash Equivalents' },
+    { url: 'https://youtu.be/Ea87cujfaSI?si=-duMDvgqSL3W6X5E', label: '2.Bonds' },
+    { url: 'https://youtu.be/tD1UbHo3tQA?si=IqIWejasHLWwdEGu', label: '3.Stock' },
+    { url: 'https://youtu.be/8QFz1oGqQII?si=rW5A7r0HwdgwF9XQ', label: '4.Commodities' },
+    { url: 'https://youtu.be/0S-nPVOVIxI?si=Jg9npn6P6oexcVK8', label: '5.Alternative Assets' },
+  ]
+ },
+  {
+  judul: 'Macroeconomic For Investor',
+  kategori: 'Principles Investing',
+  gambar: 'images/macroeconimi.webp',
+  links: [
+    { url: 'https://youtu.be/GBNfYbxe5kQ?si=eB-FIooxpmiNJ_Hg', label: '1.Inflasi Suku Bunga dan GDP' },
+    { url: 'https://youtu.be/uoYTsYrkYXs?si=f5p6u1kqwYwefd1x', label: '2.Siklus Bisnis' },
+    { url: 'https://youtu.be/c6dUxRNNav4?si=sSB0JBGeW3dDuzsc', label: '3.Bank Sentral, Quantitative Easing dan Kebijakan Fiskal' },
+  ]
+},
 ];
 
 const researchData = [
